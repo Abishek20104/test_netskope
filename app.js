@@ -12,8 +12,7 @@ functions.http('app', (req, res) => {
 
   if (req.path === '/api') {
     return res.status(200).json({
-      message: 'API is working 🚀',
-      method: req.method
+      message: 'API is working',
     });
   }
 
