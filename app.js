@@ -7,7 +7,7 @@ app.get('/health', (req, res) => {
   res.status(200).send('OK');
 });
 
-app.get('/api', (req, res) => {
+app.get('/', (req, res) => {
   res.json({ message: 'API working' });
 });
 
