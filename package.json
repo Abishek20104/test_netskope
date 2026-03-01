@@ -1,0 +1,5 @@
+{
+  "scripts": {
+    "start": "functions-framework --target=app --port=8080"
+  }
+}
