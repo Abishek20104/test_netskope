@@ -5,10 +5,10 @@ const app = express();
 app.use(express.json());
 
 const pool = mysql.createPool({
-  user: "root",
+  user: "abishek",
   password: process.env.DB_PASS,
   database: "test",
-  socketPath: "/cloudsql/PROJECT_ID:REGION:practice-instance",
+  socketPath: "/cloudsql/abishek-practise-project:us-central1-a:practice-instance",
 });
 
 app.get("/", (req, res) => {
