@@ -8,7 +8,7 @@ const pool = mysql.createPool({
   user: "abishek",
   password: process.env.DB_PASS,
   database: "test",
-  socketPath: "/cloudsql/abishek-practise-project:us-central1-a:practice-instance",
+  socketPath: "/cloudsql/abishek-practise-project:us-central1:practice-instance",
 });
 
 app.get("/", (req, res) => {
